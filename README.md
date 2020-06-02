@@ -19,7 +19,7 @@ In this guide I am going to explain how to use Charm tool to get your convos and
    }
    ~~~~  
    
-  *duration_entries_en.json*
+   *duration_entries_en.json*
     
    ~~~~  
    [
