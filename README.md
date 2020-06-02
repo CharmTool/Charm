@@ -7,5 +7,30 @@ In this guide I am going to explain how to use Charm tool to get your convos and
 1. To generate convo files you have to download the chatbot from Dialogflow.
 
 2. You have to add manually all the system entities that are required in any of the chatbot intents.
-
-* To do so, Find the folder  
+   * To do so, find the folder entities inside the chatbot's folder. If there is not such a folder, create it.
+   * Add a file called *entityName*.json which will contain the name of the entity and another file called *entityName*_entries_en.json that will contain the values of each entry of the entity
+   * Here is an example:
+   
+   *duration.json*
+   ~~~~  
+   {
+      "id": "485f8456-a40c-4dbe-a678-14be959e77d4",
+      "name": "duration"
+   }
+   ~~~~  
+   
+  *duration_entries_en.json*
+    
+   ~~~~  
+   [
+      {
+        "value": "duration",
+        "synonyms": [
+        "1 hour",
+        "two hours",
+        "2 days",
+        "24 hours"
+        ]
+      }
+    ]
+    ~~~~
