@@ -34,3 +34,9 @@ In this guide I am going to explain how to use Charm tool to get your convos and
       }
     ]
     ~~~~
+3. Modify the path to the chatbots in generateDialogConvos.py main method (at the bottom of the file).
+4. You can also choose how many input utterances are going to be generated per intent. It will get randomly n training utterances from the definition of the chatbot. 
+5. Once you completed the steps, you can generate your convo files by executing the following command from the folder *pythonscripts*:
+```
+python3 generateDialogConvos.py
+```
