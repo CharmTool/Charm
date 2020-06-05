@@ -1,6 +1,7 @@
 # Charm
 Charm is an open source software tool to test chatbot over Botium. 
 Botium is a complete tool that helps you test your chatbots by running a set of tests which consist on recreating conversations over your chatbot to test its behaviour. Botium will output the list of tests failed and passed, with a brief description for the errors occured. 
+For a better understanding of Botium, you can visit their webpage https://www.botium.ai/
 Charm tries to help Botium by generating better default tests cases using the chatbot training utterances defined previously and increasing the size of the tests set by muting the input utterances (or user requests).
 If you want to have a detailed explanation of the project I invite you to read the following article. *(link to the article)*
 
